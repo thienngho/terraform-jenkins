@@ -33,3 +33,5 @@ variable "plugins" {
   description = "A list of Jenkins plugins to install, use short names."
   default     = ["git", "xunit"]
 }
+
+variable "ad_password" {}
